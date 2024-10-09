@@ -1,0 +1,56 @@
+.navigation{
+    height: 10vh;
+    display: flex;
+    padding-inline: 100px;
+    justify-content: space-between;
+    border-bottom: 1px solid #b3b3b3;
+    background-color: #cde9ff;
+}
+.nav_header{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.nav_header .logo{
+    font-size: 25px;
+}
+.nav_logo span{
+    color: #0000FF;
+    font-style: italic;
+}
+.navigation .links ul{
+   display: flex;
+   margin-top: 20px;
+   gap: 30px;
+   font-size: 18px;
+   font-weight: 600; 
+}
+.navigation .links ul li:hover{
+    color: #051074;
+    cursor: pointer;
+}
+.navigation .nav_button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+}
+.navigation .nav_button button{
+    margin-left: 1rem;
+    padding: 0.9rem 2rem;
+    color: #fff;
+    background-color: #0041C2;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.navigation .nav_button button:nth-child(1){
+    background-color: transparent;
+    border: 1px solid #1414b1;
+    color: black;
+}
+.navigation .nav_button button:hover{
+    background-color: #2ba2c7;
+}

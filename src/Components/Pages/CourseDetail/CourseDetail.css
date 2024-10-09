@@ -1,0 +1,72 @@
+.course_details{
+    margin-top: 40px;
+    padding-inline: 50px;
+}
+.details_top{
+    display: flex;
+}
+.details_top .details_right img{
+    width: 700px;
+    height: 450px;
+    object-fit: cover;
+}
+.details_left h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.details_left .desc{
+    color: #666;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.details_left .lang{
+    color: #666;
+    margin-bottom: 20px;
+}
+.details_left .date{
+    margin-top: 10px;
+    font-weight: 600;
+}
+.details_left .price{
+    font-size: 28px;
+}
+.price_container{
+    margin-top: 25px;
+    display: flex;
+    gap: 25px;
+}
+.course_details button{
+    padding: 15px 30px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(0, 195, 255);
+}
+.course_details button:hover{
+    background-color: rgb(23, 23, 168);
+}
+.course_details .field_container{
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding-inline: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.course_details .field_container .p_name{
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-size: 22px;
+}
+.course_details .field_container .phase{
+    font-weight: 600;
+    font-size: 18px;
+}
+.course_details .field_container ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-inline: 50px;
+    margin-bottom: 10px;
+}

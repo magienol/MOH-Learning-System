@@ -1,0 +1,23 @@
+
+.trusted {
+    margin-top: 150px;
+    display: grid;
+    place-items: center;
+}
+
+.trusted_header {
+    font-size: 25px;
+    text-align: center;
+}
+
+.trusted_img {
+    display: flex;
+    justify-content: center; /* Center images horizontally */
+    align-items: center; /* Center images vertically, if needed */
+    gap: 30px; /* Space between images */
+    flex-wrap: wrap; /* Wrap images if they exceed the width */
+}
+
+.trusted_img .logo {
+    width: 160px;
+}
